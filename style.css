@@ -60,3 +60,9 @@ article > h2{
 article > aside{
     text-align: center;
 }
+main > .politica{
+    text-align: center;
+}
+header.PG2politica{
+    background-image: linear-gradient(rgba(255, 0, 43, 0.493), rgba(255, 255, 255, 0.493));
+}
