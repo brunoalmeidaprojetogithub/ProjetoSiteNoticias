@@ -36,9 +36,13 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     margin: auto;
-    width: 658;
+    min-width: 375px;
+    max-width: 667px;
     border-radius: 7px 7px 7px 7px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+}
+img{
+    width: 100%;
 }
 main > h1{
     text-align: center;
@@ -48,10 +52,11 @@ main > h1{
 article > h2{
     text-align: center;
 }
-article > p{
+ article > p{
     text-align: justify;
+ }
     
-}
+
 article > aside{
     text-align: center;
 }
