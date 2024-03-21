@@ -66,3 +66,18 @@ main > .politica{
 header.PG2politica{
     background-image: linear-gradient(rgba(255, 0, 43, 0.493), rgba(255, 255, 255, 0.493));
 }
+.videopolitica{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 30px;
+   padding-bottom: 50%;
+    
+}
+.videopolitica > iframe{
+    position: absolute;
+    top: 20px;
+   
+    width: 90%;
+    height: 90%;
+
+}
