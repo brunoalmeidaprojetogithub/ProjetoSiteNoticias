@@ -7,7 +7,8 @@ body{
 header{
     background-image: linear-gradient(rgba(5, 5, 236, 0.459), rgba(228, 152, 152, 0.678));
     text-align: center;
-    
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+    border-radius: 7px 7px 7px 7px; 
 }
 header > h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,7 +19,7 @@ header > p{
     padding-bottom: 4px;
 }
 nav{
-    background-color: beige;
+    background-color: rgb(179, 179, 179);
     text-align: center;
 }
 nav > a{
@@ -28,7 +29,7 @@ nav > a{
     text-decoration: none;
 }
 nav> a:hover{
-    color: brown;
+    color: rgb(228, 16, 16);
     text-decoration: underline;
 }
 main{
@@ -36,16 +37,19 @@ main{
     background-color: white;
     margin: auto;
     width: 658;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
 }
 main > h1{
     text-align: center;
     background-image: linear-gradient(rgba(5, 5, 236, 0.459), rgba(228, 152, 152, 0.678));
+    border-radius: 7px 7px 7px 7px;
 }
 article > h2{
     text-align: center;
 }
 article > p{
-    text-align: center;
+    text-align: justify;
     
 }
 article > aside{
