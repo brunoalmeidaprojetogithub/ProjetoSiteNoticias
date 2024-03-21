@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    margin-top: 0px;
+}
+header{
+    background-image: linear-gradient(rgba(5, 5, 236, 0.459), rgba(228, 152, 152, 0.678));
+    text-align: center;
+    
+}
+header > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 4px;
+}
+nav{
+    background-color: beige;
+    text-align: center;
+}
+nav > a{
+    font-size: 1.4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    text-decoration: none;
+}
+nav> a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin: auto;
+    width: 658;
+}
+main > h1{
+    text-align: center;
+    background-image: linear-gradient(rgba(5, 5, 236, 0.459), rgba(228, 152, 152, 0.678));
+}
+article > h2{
+    text-align: center;
+}
+article > p{
+    text-align: center;
+    
+}
+article > aside{
+    text-align: center;
+}
